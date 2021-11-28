@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Project 2 - OOP Concepts</title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="pictures/logo.png"/></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"> </i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="AAA.html">AAA Testing</a></li>
+                    <li><a href="OOPV.html">OOP Vocab</a></li>
+                    <li><a href="OOPC.html">OOP CONCEPT</a></li>
+                    <li><a href="SE.html">SEP OF CONCERNS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <h1>Project 2</h1>
+        <p>Making website is now one of the easier thing in the wrold. You just ned to learn OOP, and other stuff <br>fjdfkjsalf and you are good to go. </p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+    </div>
+    </section>
+
+
+
+<!----Others---->
+
+<section class="course">
+    <h1>Stuff In Website</h1>
+    <p>This website covers: ....</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>AAA Testing</h3>
+            <p>AAA stands for Arrange, Act, and Assert. We will be discussing about what they are doing.</p>
+        </div>
+        <div class="course-col">
+            <h3>OOP Vocab & Concepts</h3>
+            <p>OOP stands for object oriented programming. We will define common vocab that are used when talking about OOP concepts. We will also discuss OOP concepts.</p>
+        </div>
+        <div class="course-col">
+            <h3>Separation of Concerns</h3>
+            <p>is a design principle for separating a software program, we will be discussing more later in the website.</p>
+        </div>
+    </div>
+</section>
+
+    <!---OTher stuff---->
+
+<section class="campus">
+    <h1>
+       Cool Places
+    </h1>
+    <p></p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src= "pictures/london.png">
+            <div class = "layer">
+                <h3>London</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src= "pictures/newyork.png">
+            <div class = "layer">
+                <h3>New York</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src= "pictures/washington.png">
+            <div class = "layer">
+                <h3>Washington</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---Facilities--->
+    <!----
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>gjoiuaegjhawuiorgtjoiuarwjgiouaejhgoi</p>
+
+            <div class = "row">
+                <div class=facilities-col">
+                    <img src="pictures/library.png">
+                    <h3>World Class Library</h3>
+                    <p>Lorem ipsum dolor sit amert, consectetur adipiscing elit.
+                    Pellentesque aliquet turis nulla.</p>
+                </div>
+                <div class=facilities-col">
+                    <img src="pictures/basketball.png">
+                    <h3>Largest Play Grond</h3>
+                    <p>Lorem ipsum dolor sit amert, consectetur adipiscing elit.
+                        Pellentesque aliquet turis nulla.</p>
+                </div>
+                <div class=facilities-col">
+                    <img src="pictures/cafeteria.png">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>Lorem ipsum dolor sit amert, consectetur adipiscing elit.
+                        Pellentesque aliquet turis nulla.</p>
+                </div>
+            </div>
+        </section>
+
+        ---->
+    <!----Test---->
+
+<section class="testimonials">
+    <h1>Quotes</h1>
+    <p>Important quotes...</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="pictures/paul.jpg">
+            <div>
+                <p>
+                    Object-oriented-programming offer a sustainable way to write spaghetti code. It lets you accrete programs as a series of patches.
+                </p>
+                <h3>Paul Graham</h3>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="pictures/janet-gregory.jpg">
+            <div>
+                <p>
+                    Coding is really a small part of the whole delivery cycle while testing is throughout
+                </p>
+                <h3>Janet Gregory</h3>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!---- Call to Actoin ---->
+
+<section class="cta">
+    <h1>Learn more about these concepts </h1>
+    <a href="" class="hero-btn">Click Here To Go to Top</a>
+</section>
+
+<section class="footer">
+    <h4>About Me</h4>
+    <p>My name is Shiva Modugu, I am a second year computer science major at NJIT. </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+<!--- Javacript for Menu --->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu()
+    {
+        navLinks.style.right="0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+
+
+</body>
+</html>
