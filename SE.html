@@ -26,7 +26,7 @@
         <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
 
-    <h1>AAA Testing</h1>
+    <h1>Separation of Concerns</h1>
 </section>
 
 <!----About Me------>
@@ -34,12 +34,33 @@
     <div class="row">
         <div class="about-col">
             <h1>Separation of Concerns</h1>
-            <p>Separation of concerns is a computer science design principle that divides a program into independent components. Each section deals with a specific problem, a set of data that has an impact on the coding of a computer program. It is important because the lack of duplication and singularity of purpose of the individual components render the overall system easier to maintain
+            <p>Separation of concerns is a computer science design principle that divides a program into independent components.
+                Each section deals with a specific problem, a set of data that has an impact on the coding of a computer program.
+                It is important because the lack of duplication and singularity of purpose of the individual components render the overall system easier to maintain.
+                Basically separation of concerns tries to reduce the amount of coupling in the classes and increase the cohesion.
+            <br><b>Coupling </b> is the degree of interdependence between software modules.
+                <br><b>Cohesion</b> is the degree to which the elements inside a module belong together.
+                <br> In the example below you will see a good example of cohesion, where the class inheriting values from the superclass. This reduces coupling because the modelue is where the program is being run.
+                <br> <b>Example:</b>
+                <b>
+                    <br>
+
+                <br>from calculator.calculations.calculation import Calculation
+                <br>
+                <br>class Addition(Calculation):
+                <br>&nbsp&nbsp&nbsp&nbsp """ calculation addition class"""
+                <br>&nbsp&nbsp&nbsp&nbsp def get_result(self):
+                <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp """get the addition results"""
+                <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp sum_of_values = 0.0
+                <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp for value in self.values:
+                <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  sum_of_values = value + sum_of_values
+                <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp return sum_of_values
+                </b>
             </p>
             <a href="https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/" class="hero-btn red-btn">Explore More</a>
         </div>
         <div class="about-col">
-            <img src="pictures/AAA.png">
+            <img src="pictures/SE.png">
         </div>
     </div>
 </section>
